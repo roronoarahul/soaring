@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clear{
+	clear: both;
+}
+@font-face{
+	font-family: GothicR;
+	src: url(../fonts/GOTHIC.TTF);
+}
+@font-face{
+	font-family: Gothic_B;
+	src: url(../fonts/GOTHICB.TTF);
+}
+@font-face{
+	font-family: Gothic_BI;
+	src: url(../fonts/GOTHICBI.TTF);
+}
+@font-face{
+	font-family: Gothic_I;
+	src: url(../fonts/GOTHICI.TTF);
+}
+.navbar-inverse{
+	background-color: #ffffff;
+    border-color: #ffffff;
+}
+.navbar{
+	margin-bottom: 0px;
+	min-height: 63px;
+}
+.navbar-brand{
+	padding: 5px 15px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+}
+.navbar-form{
+	margin-bottom: 14px;
+	margin-top: 13px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #000;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	color: #000;
+	background-color: transparent;
+}
+.dropdown-menu{
+	background-color: rgba(0,0,0,0.7);
+}
+.drop-menu>li>a{
+	color: #fff;
+	padding: 8px 20px;
+}
+.drop-menu>li{
+	margin: 0 5px;
+}
+.drop-menu>li:not(:last-child){
+	border-bottom: 1px solid #999;
+}
+.drop-menu>li>a:hover, .drop-menu>li>a:active, .drop-menu>li>a:focus{
+	background-color: transparent;
+	color: #fff;
+}
+@media only screen and (min-width: 768px){
+	.drop-menu-2{
+		left: -118px;
+	}
+}
+.drop-menu-2>li>a{
+	color: #fff;
+	padding: 8px 20px;
+}
+.drop-menu-2>li{
+	margin: 0 5px;
+}
+.drop-menu-2>li:not(:last-child){
+	border-bottom: 1px solid #999;
+}
+.drop-menu-2>li>a:hover, .drop-menu-2>li>a:active, .drop-menu-2>li>a:focus{
+	background-color: transparent;
+	color: #fff;
+}
+.form-control{
+	font-family: 'Open Sans', sans-serif;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 0px;
+}
+.search-btn{
+	background-color: transparent;
+    border-color: transparent;
+}
+.search-btn:hover{
+	background-color: transparent;
+    border-color: transparent;
+}
+@media (min-width: 768px){
+	.navbar {
+    	border-radius: 0px; 
+	}
+	.navbar-nav>li>a {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+	.navbar-form .form-control {
+	    width: 330px;
+	}
+	.navigation-bar{
+		width: auto;
+	    height: auto;
+	    margin-left: 16%;
+	}
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: #df9a35;
+}
+.navbar-inverse .navbar-toggle{
+	border-color: transparent;
+}
+
+
+
+
+footer{
+	background-color: #e5e5e5;
+	height: auto;
+}
+.footer-links{
+	padding: 30px 0;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.footer-links li{
+	list-style: none;
+	display: inline-block;
+	text-transform: uppercase;
+}
+.footer-links li:not(:last-child){
+	border-right: 1px solid #404040;
+}
+.footer-links li:nth-child(4){
+	text-transform: none;
+}
+.footer-links li a{
+	padding: 5px 12px;
+	color: #404040;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+.footer-links li a:hover{
+	text-decoration: none;
+}
+.footer-links-media{
+	padding: 0 0 30px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.footer-links-media li{
+	list-style: none;
+	display: inline-block;
+}
+.footer-links-media li{
+	margin: 0px 12px;
+}
+.copyright {
+	background-color: #414141;
+	padding: 15px;
+}
+.copyright p{
+	margin-bottom: 0px;
+	color: #aeaeae;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-left: 80px;
+}
+.enquire-form-footer{
+	padding: 24px 4%;
+    background: #fff;
+    margin: 0 10%;
+    font-family: GothicR;
+}
+.tip-terms ul{
+	padding-left: 2em;
+}
+.tip-terms ul li{
+	font-family: GothicR;
+	font-size: 12.5px;
+    line-height: 8px;
+    padding-top: 15px;
+}
+.icon-form{
+	width: 10%;
+}
+.icon-form-date{
+	width: 20%;
+	float: left;
+}
+.check-date{
+	width: 79%;
+}
+@media only screen and (max-width: 768px){
+	.navbar-form .form-control {
+	    width: 240px;
+    	float: left;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+		border-color: transparent;
+	}
+	.search-btn{
+		padding-top: 0px;
+	}
+	.line {
+	    margin: 0 auto;
+	}
+	.tip-terms ul li{
+	    line-height: 20px;
+	}
+	.enquire-form-footer{
+		margin: 0 0;
+	}
+	.icon-form{
+		width: 10%;
+	}
+	.icon-form-date{
+		width: 10%;
+	}
+	.form-control{
+		padding: 6px 18px;
+	}
+	.check-date{
+		width: 90%;
+	}
+	.rev-rate{
+		padding-right: 15px;
+	}
+	.copyright p{
+		margin-left: 0px;
+	}
+	.footer-links li:not(:last-child){
+		border: none;
+	}
+	.footer-links li{
+		padding-bottom: 5px;
+		display: block;
+	}
+}

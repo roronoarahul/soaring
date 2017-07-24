@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Properties</title>
+  	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu-footer.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<!-- Facebook Plugin -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Facebook Plugin End -->
+<header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navigation-bar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+              <a class="navbar-brand" href="#"><img src="img/white-hdr-logo.png" class="img-responsive"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <form class="navbar-form navbar-left">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search by Location, Property, Holiday, State">
+                  </div>
+                  <button type="submit" class="btn btn-default search-btn"><img src="img/search.png" class="img-responsive"></button>
+                </form>
+                <ul class="nav navbar-nav">
+                  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Login</a>
+                    <ul class="dropdown-menu drop-menu">
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#">Register</a></li>
+                      <li><a href="#">Forgot Password</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Destination Types</a></li>
+                  <li><a href="#">Stay Types</a></li>
+                  <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="img/menu.png" class="img-responsive"></a>
+                    <ul class="dropdown-menu drop-menu-2">
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Gift A Holiday</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                  </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </nav>
+</header>
+<div class="container-fluid bg-top">
+	<div class="col-sm-7 ladakh">
+		<div id="Carouselroom" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/ladakh-bg.jpg" >
+                </div>
+                <div class="item">
+                    <img src="img/ladakh-bg.jpg" >
+                </div>
+                <div class="carousel-caption">
+                    <h1>LADAKH</h1>
+                    <div class="line"></div>
+                    <p><a href="#">Jammu Kashmir</a> <span>|</span> <a href="#">Harnai Port, </a><a href="#">Beaches, </a><a href="#">Keshavraj</a></p>
+                </div>
+            </div>
+             <a class="left carousel-control" href="#Carouselroom" data-slide="prev">
+                <span class=""><i class="fa fa-chevron-left" style="color: #fff; padding-top: 110%;" aria-hidden="true"></i></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#Carouselroom" data-slide="next">
+                <span class=""><i class="fa fa-chevron-right" style="color: #fff; padding-top: 110%;" aria-hidden="true"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+	</div>
+	<div class="col-sm-5 l-descp">
+		<h6>DEscription</h6>
+		<p>A breathtaking hill station and famous for its sparkling lake &amp; gorgeously glistening waterfall is Bhandardara. It is situated 180 kilometers from Mumbai. Splendorous routes and a close call to nature are what call walking and trekking enthusiasts. It houses the beautiful Amruteshwar Temple of Lord Shiva built in the 11th Century AD. Bhandardara is also renowned as a waterfall destination and the best time to visit this place is the monsoon season.</p>
+	</div>
+</div>
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#properties">Properties</a></li>
+    <li><a data-toggle="tab" href="#menu1">Things to do/see</a></li>
+    <li><a data-toggle="tab" href="#menu2">Climate &amp; Connectivity</a></li>
+    <li><a data-toggle="tab" href="#menu3">Food &amp; Shop</a></li>
+    <li><a data-toggle="tab" href="#menu4">Location Tips</a></li>
+  </ul>
+<div class="container-fluid ">
+  <div class="tab-content">
+  <!-- Properties -->
+    <div id="properties" class="tab-pane fade in active">
+    	<div class="row">
+    		<div class="col-sm-12 property">
+    			<h3><span class="red">PLACES</span> TO STAY</h3>
+    			<div class="row">
+    				<div class="col-sm-8">
+    					<div class="row">
+    						<div class="col-sm-5">
+    							<img src="img/mercure.png" class="img-responsive">
+    						</div>
+    						<div class="col-sm-7 placetostay">
+    							<h5>mercure sanur</h5>
+    							<h6>Ladakh, Kashmir</h6>
+    							<div class="line-tab"></div>
+    							<p>A mere 5 minutes drive from the serene Dapoli beach, The Fern Samali is a luxury resort set in the midst of swaying palm trees.
+								The cottages are all designed with style, giving them an aura of urban luxury. The cottages all come equipped with a private balcony, LCD TV and an attached bathroom...</p>
+								<a href="">EXPLORE NOW</a>
+
+    						</div>
+    					</div>
+    					<div class="row">
+    						<div class="col-sm-12">
+    							<div class="tab-line"></div>
+    						</div>
+    					</div>
+    					<div class="row">
+    						<div class="col-sm-5">
+    							<img src="img/mercure2.png" class="img-responsive">
+    						</div>
+    						<div class="col-sm-7 placetostay">
+    							<h5>mercure sanur</h5>
+    							<h6>Ladakh, Kashmir</h6>
+    							<div class="line-tab"></div>
+    							<p>A mere 5 minutes drive from the serene Dapoli beach, The Fern Samali is a luxury resort set in the midst of swaying palm trees.
+								The cottages are all designed with style, giving them an aura of urban luxury. The cottages all come equipped with a private balcony, LCD TV and an attached bathroom...</p>
+								<a href="">EXPLORE NOW</a>
+
+    						</div>
+    					</div>
+    					<div class="row">
+    						<div class="col-sm-12">
+    							<div class="tab-line"></div>
+    						</div>
+    					</div>
+    					<div class="row" style="padding-bottom: 35px;">
+    						<div class="col-sm-5">
+    							<img src="img/mercure3.png" class="img-responsive">
+    						</div>
+    						<div class="col-sm-7 placetostay">
+    							<h5>mercure sanur</h5>
+    							<h6>Ladakh, Kashmir</h6>
+    							<div class="line-tab"></div>
+    							<p>A mere 5 minutes drive from the serene Dapoli beach, The Fern Samali is a luxury resort set in the midst of swaying palm trees.
+								The cottages are all designed with style, giving them an aura of urban luxury. The cottages all come equipped with a private balcony, LCD TV and an attached bathroom...</p>
+								<a href="">EXPLORE NOW</a>
+    						</div>
+    					</div>
+    					<a href="#" class="showlink">Show More <span class="red">>></span></a>
+    				</div>
+    				<div class="col-sm-4">
+    					<h6 class="feat-prop"><span class="red" style="font-weight: bold;">Featured</span> Properties</h6>
+    					<div class="row">
+    						<div class="col-sm-12">
+    							<div class="feat-prop-div">
+    								<div class="feat-text">
+    									<h2>Let Us <br/> Inspire You!</h2>
+    									<a href="#" class="feat-prop-contact">Contact Us</a>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="row">
+    						<div class="col-sm-12">
+    							<div class="follow-div">
+                                <!-- For Desktop -->
+                                <div class="facebook-div">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="420" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Desktop -->
+                                <!-- <div class="facebook-div-1-1">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                                <div class="facebook-div-1-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=226&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="226" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div> -->
+                            <!-- For Mobile till 412px -->
+                                <!-- <div class="facebook-div-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div> -->
+                            <!-- For Mobile till 375px -->
+                                <!-- <div class="facebook-div-3">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=343&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="343" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div> -->
+                            <!-- For Mobile till 300px -->
+                                <!-- <div class="facebook-div-4">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div> -->
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    			<br/><br/>
+    		</div>
+    	</div> 
+    </div>
+    <div id="menu1" class="tab-pane fade">
+        <div class="col-sm-12 things">
+            <h3><span class="red">THINGS</span> TO SEE</h3>
+            <div class="row">
+                <div class="col-sm-8 things-prop">
+                    <ul>
+                        <li><b>Harnai Port:</b> Located 17 kms from Dapoli at Harnai, the Suvarnadurg fort consists of two forts. Kanakdurga is the land fort and Suvarnadurga is the sea fort. It was built in the Adil Shah rule and was later captured by Chatrapati Shivaji Maharaj</li>
+                        <li><b>Panhalekaji Caves:</b> Located on the Dapoli – Dabhil Pangari road is a place called Panhalekaji. The 29 caves and numerous sculptures are a must see. It is urrounded by jungle and river on all sides. Here you can also spot birds and reptiles.</li>
+                        <li><b>Unhavare Hot Water Springs:</b> Located 35 kms from Dapoli (near Panhalekaji caves) are the Unhavare springs. There are proper facilities for men &amp; women to take a dip in the rejuvenating hot water. The spring here also cntains sulphar which is meant to be very good for skin.</li>
+                        <li><b>Beaches:</b> 12 kms from Dapoli is the famous Murud Beach which boasts of being the longest beach in the Konkan region. Dolphin watching is a great attraction here. Dapoli also has its own little virgin rocky beach. Five beaches in vicinity - Dabhol, Anjarle,Harnai, Ladghar,Karde</li>
+                        <li><b>Keshavraj:</b> Situated between Dapoli and Asud Pul this place is famous for its Keshavraj's idol. Here is a steep climb, where you're greeted with fresh water.</li>
+                    </ul>
+                    <h3><span class="red">THINGS</span> TO DO</h3>
+                    <ul>
+                        <li><b>Dolphin Spotting</b></li>
+                        <li><b>Water Sports</b> like Jet Skii, Banana Rides, Bumper Rides, Parasailing at most of the beaches</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h6 class="feat-prop"><span class="red" style="font-weight: bold;">Featured</span> Properties</h6>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="feat-prop-div">
+                                <div class="feat-text">
+                                    <h2>Let Us <br/> Inspire You!</h2>
+                                    <a href="#" class="feat-prop-contact">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="follow-div">
+                            <!-- For Desktop -->
+                                <div class="facebook-div">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="420" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Desktop -->
+                                <div class="facebook-div-1-1">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                                <div class="facebook-div-1-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=226&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="226" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 412px -->
+                                <div class="facebook-div-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 375px -->
+                                <div class="facebook-div-3">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=343&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="343" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 300px -->
+                                <div class="facebook-div-4">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <div class="col-sm-12 climate">
+            <div class="row">
+                <div class="col-sm-8 climate-prop">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span><img src="img/icon-climate.png"> CLIMATE:</span>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>The summers here are extremely hot and exhausting with temperature rising up to a minimum of 40°C. The monsoons here are marked with a cool and a pleasant breeze. Winters here are very cold with also being the best time to visit the place. The minimum temperature here is 12°C .</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span><img src="img/icon-best-season.png"> BEST SEASON:</span>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>Nov.-Mar</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span><img src="img/icon-nearest-railhead.png"> NEAREST RAILHEAD:</span>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>Khed</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span><img src="img/icon-nearest-airport.png"> NEAREST AIRPORT:</span>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>Pune</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span><img src="img/icon-nearest-bus-stop.png"> NEAREST BUS:</span>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>Dapoli</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span><img src="img/icon-Driving-Distances-big-city.png"> DRIVING DISTANCE (FROM NEAREST BIG CITY):</span>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>Pune to Dapoli = 191 Kms, Mumbai to Dapoli = 228 Kms, Kolhapur to Dapoli = , Navi Mumbai to Dapoli =</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <span><img src="img/icon-Height-above-sea-level.png"> HEIGHT ABOVE SEA LEVEL:</span>
+                        </div>
+                        <div class="col-sm-8">
+                            <p>800 ft</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 dapoli">
+                            <h4>Find Dapoli on map</h4>
+                            <div>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30396.250530098646!2d73.17116292539995!3d17.76670947253651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be9c3de665f4d7b%3A0x411a32d91e51e834!2sDapoli%2C+Maharashtra!5e0!3m2!1sen!2sin!4v1499865075200" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <h6 class="feat-prop"><span class="red" style="font-weight: bold;">Featured</span> Properties</h6>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="feat-prop-div">
+                                <div class="feat-text">
+                                    <h2>Let Us <br/> Inspire You!</h2>
+                                    <a href="#" class="feat-prop-contact">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="follow-div">
+                                <!-- For Desktop -->
+                                <div class="facebook-div">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="420" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Desktop -->
+                                <div class="facebook-div-1-1">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                                <div class="facebook-div-1-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=226&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="226" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 412px -->
+                                <div class="facebook-div-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 375px -->
+                                <div class="facebook-div-3">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=343&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="343" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 300px -->
+                                <div class="facebook-div-4">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <div class="col-sm-12 food">
+            <h3><span class="red">FOOD</span></h3>
+            <div class="row">
+                <div class="col-sm-8 food-prop">
+                    <ul>
+                        <li><b>Surali Garden Family Restaurant:</b> This is an Indian restaurant which is a good place to enjoy your meal. You can look forward to enjoy Sea food, Fish Thali and SolKadhi when here.</li>
+                        <li><b>Hari's Vegetarian:</b> It is avery famous pure vegetarian restaurant here which serves delicious Punjabi cuisine. You'll get to have a delicious Tandoori Nan, mix vegetables with Daal. You can have a good time while having a good food.</li>
+                        <li><b>Zhilan:</b> Another Indian restaurant here, and also one of the better restaurant in town compared to others.</li>
+                        <li>Malvani food known which is a spicy food of curries and fries is a famous local cuisine here. Here, you can also find konkani styled fresh sea-food and Kokum Juice which is a refreshing drink to have during summers. Solkadhi-rice with fresh sea-food is a famous local meal which you cannot miss out on.</li>
+                    </ul>
+                    <h3><span class="red">SHOP</span></h3>
+                    <p>When in Dapoli you can look out to buy-</p>
+                    <ul>
+                        <li>Amba, Phanas Poli</li>
+                        <li>Kokam Syrup (Agal)</li>
+                        <li>Kuleeth Peeth</li>
+                        <li>Talalele Gare (Jackfruit chips)</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h6 class="feat-prop"><span class="red" style="font-weight: bold;">Featured</span> Properties</h6>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="feat-prop-div">
+                                <div class="feat-text">
+                                    <h2>Let Us <br/> Inspire You!</h2>
+                                    <a href="#" class="feat-prop-contact">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="follow-div">
+                                <!-- For Desktop -->
+                                <div class="facebook-div">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="420" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Desktop -->
+                                <div class="facebook-div-1-1">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                                <div class="facebook-div-1-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=226&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="226" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 412px -->
+                                <div class="facebook-div-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 375px -->
+                                <div class="facebook-div-3">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=343&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 300px -->
+                                <div class="facebook-div-4">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <div class="col-sm-12 location">
+            <h3><span class="red">Location</span> Tips</h3>
+            <div class="row">
+                <div class="col-sm-8 location-prop">
+                    <p>Unique Location with 5 beaches in the vicinity-Dabhol, Anjarle,Harnai, Ladghar,Karde. Access to non-commercial, non-touristy, long stretch of beaches.Dapoli beaches have a fine white sand cover. Versatile destination with sea forts, hot springs, archaeological sites and Dolphin watching.Please carry</p>
+                </div>
+                <div class="col-sm-4">
+                    <h6 class="feat-prop"><span class="red" style="font-weight: bold;">Featured</span> Properties</h6>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="feat-prop-div">
+                                <div class="feat-text">
+                                    <h2>Let Us <br/> Inspire You!</h2>
+                                    <a href="#" class="feat-prop-contact">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="follow-div">
+                            <!-- For Desktop -->
+                                <div class="facebook-div">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=420&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="420" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Desktop -->
+                                <div class="facebook-div-1-1">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                                <div class="facebook-div-1-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=226&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="226" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 412px -->
+                                <div class="facebook-div-2">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=375&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="375" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 375px -->
+                                <div class="facebook-div-3">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=380&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="380" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            <!-- For Mobile till 300px -->
+                                <div class="facebook-div-4">
+                                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSoaringExperiences%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+	<div class="container-fluid">
+		<ul class="footer-links">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Gift A Holiday</a></li>
+			<li><a href="#">Contact Us</a></li>
+			<li><a href="#">FAQs</a></li>
+			<li><a href="#">Terms and Conditions</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+		</ul>
+		<ul class="footer-links-media">
+			<li><a href="https://www.facebook.com/SoaringExperiences/?fref=nf" target="_blank"><img src="img/fb.png" class="img-responsive"></a></li>
+			<li><a href="#"><img src="img/link.png" class="img-responsive"></a></li>
+			<li><a href="https://twitter.com/soaringexp" target="_blank"><img src="img/tw.png" class="img-responsive"></a></li>
+			<li><a href="https://plus.google.com/114127868976795760144" target="_blank"><img src="img/google.png" class="img-responsive"></a></li>
+		</ul>
+	</div>
+	<div class="copyright">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<p>Copyrights @ 2016 Soaring Experiences. All Rights Reserved</p>
+				</div>
+			</div>
+		</div>	
+	</div>
+</footer>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

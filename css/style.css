@@ -1,0 +1,418 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clear{
+	clear: both;
+}
+@font-face{
+	font-family: GothicR;
+	src: url(../fonts/GOTHIC.TTF);
+}
+@font-face{
+	font-family: Gothic_B;
+	src: url(../fonts/GOTHICB.TTF);
+}
+@font-face{
+	font-family: Gothic_BI;
+	src: url(../fonts/GOTHICBI.TTF);
+}
+@font-face{
+	font-family: Gothic_I;
+	src: url(../fonts/GOTHICI.TTF);
+}
+.bg-top{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+@media screen and (min-width: 768px){
+	.carousel-caption {
+	    right: 20%;
+	    left: 20%;
+	    padding-bottom: 30px;
+	    top: 60px;
+	}
+}
+.ladakh{
+	height: 20.5em;
+	padding-right: 0;
+	padding-left: 0;
+
+}
+.ladakh h1{
+	color: #fff;
+	font-size: 45px;
+	font-family: Gothic_B;
+	text-shadow: 1px 0px 1px #000;
+}
+.line{
+ 	border: 1px solid #fff;
+    width: 42%;
+    margin-left: 144px;
+}
+.ladakh p{
+	color: #fff;
+    font-size: 17px;
+    font-family: GothicR;
+    text-shadow: 1px 0px 1px #000;
+    padding-left: 31px;
+    padding-top: 3px;
+}
+.ladakh p a{
+	color: #fff;
+	font-size: 17px;
+    font-family: GothicR;
+    text-shadow: 1px 0px 1px #000;
+}
+.ladakh p a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+.l-descp{
+	background-color: #dc9121;
+	height: 20.5em;
+}
+.l-descp h6{
+	padding-left: 56px;
+	text-transform: uppercase;
+	font-family: Gothic_B;
+	font-size: 28px;
+	padding-top: 34px;
+	color: #000;
+}
+.l-descp p{
+	padding-left: 56px;
+	padding-right: 90px;
+	padding-top: 10px;
+	font-family: GothicR;
+	font-size: 15px;
+	color: #000;
+	line-height: 30px;
+	height: 12em;
+	overflow-y: scroll;
+}
+.tab-soaring{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.nav-tabs{
+	background-color: #009fbe;
+	text-align: center;
+}
+.nav-tabs>li{
+	text-align: center;
+	float: none;
+	display: inline-block;
+}
+.nav-tabs>li:not(:last-child){
+	border-right: 1px solid #34c5e1;
+}
+.nav-tabs>li>a{
+	color: #fff;
+	padding: 24px 26px 18px;
+	font-family: Gothic_B;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	color: #000;
+    cursor: default;
+    background-color: #009fbe;
+    border: none;
+    border-bottom: 3px solid #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	text-decoration: none;
+    background-color: #009fbe;
+}
+.nav-tabs>li>a:hover{
+	border-color: transparent;
+}
+.property h3{
+	font-family: Gothic_B;
+	font-size: 38px;
+	padding: 33px 0 29px;
+	margin: 0;
+}
+.red{
+	color: #e48f00;
+}
+.tab-line{
+	margin-top: 36px;
+    margin-bottom: 36px;
+    border: 1px solid #000;
+}
+.showlink{
+	color: #000;
+	font-family: Gothic_B;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.showlink:hover{
+	text-decoration: none;
+	color: #000;
+}
+.placetostay h5{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-family: Gothic_B;
+	margin-bottom: 0px;
+}
+.placetostay h6{
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: GothicR;
+	color: #e48f00;
+}
+.placetostay p{
+	font-family: GothicR;
+    font-size: 14px;
+    color: #000;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+.placetostay a{
+	font-size: 12px;
+	padding: 12px 16px;
+	background-color: #e48f00;
+	color: #000;
+	border-radius: 10px;
+	transition: .3s ease;
+}
+.placetostay a:hover{
+	text-decoration: none;
+}
+.feat-prop{
+	font-family: GothicR;
+	font-size: 18px;
+	color: #000;
+	padding-top: 15px;
+}
+.feat-prop-div{
+	background: url(../img/feat-prop.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	margin-bottom: 38px;
+}
+.feat-text{
+	padding: 100px 0px;
+}
+.feat-text h2{
+	font-family: Gothic_B;
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.feat-prop-contact{
+	font-family: Gothic_B;
+	color: #fff;
+	padding: 8px 16px;
+	font-size: 17px;
+	background-color: transparent;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	margin-bottom: 20px;
+	position: relative;
+	left: 33%;
+	transition: .3s ease;
+}
+.feat-prop-contact:hover{
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+}
+.facebook-div{
+	display: block;
+}
+.facebook-div-1, .facebook-div-2, .facebook-div-3, .facebook-div-4, .facebook-div-1-1, .facebook-div-1-2{
+	display: none;
+}
+.things h3{
+	font-family: Gothic_B;
+	font-size: 38px;
+	padding: 33px 0 29px;
+	margin: 0;
+}
+.things-prop ul{
+	padding: 1% 4%;
+}
+.things-prop li{
+	font-family: GothicR;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.things-prop h3{
+	font-family: Gothic_B;
+	font-size: 38px;
+	padding: 33px 0 29px;
+	margin: 0;
+}
+.climate-prop{
+	padding-top: 5%;
+}
+.climate-prop span img{
+	margin-right: 10px; 
+}
+.climate-prop span{
+	font-family: Gothic_B;
+	font-size: 14px;
+}
+.climate-prop p{
+	font-family: GothicR;
+	font-size: 14px;
+}
+.dapoli h4{
+	font-family: Gothic_B;
+	font-size: 38px;
+	padding: 33px 0 29px;
+	margin: 0;
+}
+.food h3{
+	font-family: Gothic_B;
+	font-size: 38px;
+	padding: 33px 0 29px;
+	margin: 0;
+}
+.food-prop ul{
+	padding: 1% 4%;
+}
+.food-prop li{
+	font-family: GothicR;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.food-prop h3{
+	font-family: Gothic_B;
+	font-size: 38px;
+	padding: 33px 0 29px;
+	margin: 0;
+}
+.food-prop p{
+	font-family: GothicR;
+	font-size: 14px;
+	padding-left: 10px;
+	margin: 0;
+}
+.location h3{
+	font-family: Gothic_B;
+	font-size: 38px;
+	padding: 33px 0 29px;
+	margin: 0;
+}
+.location-prop p{
+	font-family: GothicR;
+	font-size: 14px;
+	padding-left: 10px;
+	margin: 0;
+}
+@media only screen and (max-width: 768px){
+	.ladakh{
+		height: auto;
+	}
+	.ladakh h1 {
+	    font-size: 29px;
+	    /*padding-top: 4em;*/
+	    text-align: center;
+	    padding-left: 0px;
+	}
+	.ladakh p {
+	    text-align: center;
+	    padding-left: 0px;
+	}
+	.l-descp {
+	    height: auto;
+	}
+	.l-descp h6 {
+	    margin-top: 0px;
+	}
+	.l-descp p {
+	    padding-bottom: 20px;
+	    margin-bottom: 0px;
+	}
+	.carousel-caption{
+		bottom: -20px
+	}
+	.nav-tabs li{
+		display: block;
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px){
+	.facebook-div-1, .facebook-div, .facebook-div-3, .facebook-div-4, .facebook-div-2, .facebook-div-1-1{
+		display: none;
+	}
+	.facebook-div-1-1{
+		display: block;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 1030px){
+	.facebook-div-1, .facebook-div, .facebook-div-3, .facebook-div-4, .facebook-div-1-1, .facebook-div-2{
+		display: none;
+	}
+	.facebook-div-1-2{
+		display: block;
+	}
+}
+@media only screen and (min-width: 412px) and (max-width: 500px){
+	.facebook-div-1, .facebook-div, .facebook-div-3, .facebook-div-4, .facebook-div-1-1, .facebook-div-1-2{
+		display: none;
+	}
+	.facebook-div-2{
+		display: block;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 411px){
+	.facebook-div-1, .facebook-div, .facebook-div-2, .facebook-div-4, .facebook-div-1-1, .facebook-div-1-2{
+		display: none;
+	}
+	.facebook-div-3{
+		display: block;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 374px){
+	.facebook-div-1, .facebook-div, .facebook-div-2, .facebook-div-3, .facebook-div-1-1, .facebook-div-1-2{
+		display: none;
+	}
+	.facebook-div-4{
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1399px) and (max-width: 1430px){
+	.l-descp{
+		height: 21.5em;
+	}
+	.ladakh{
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1431px){
+	.l-descp{
+		height: 22em;
+	}
+	.ladakh{
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1450px){
+	.l-descp{
+		height: 22.2em;
+	}
+	.ladakh{
+		height: auto;
+	}
+}
+@media only screen and (min-width: 1470px){
+	.l-descp{
+		height: 22.5em;
+	}
+	.ladakh{
+		height: auto;
+	}
+}
+
